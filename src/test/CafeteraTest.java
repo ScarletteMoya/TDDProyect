@@ -18,7 +18,6 @@ public class CafeteraTest {
         boolean resultado = cafetera.hasCafe(11);
         assertFalse(resultado);
     }
-
     @Test
     public void deberiaRestarcafeAlaCafetera() {
         Cafetera cafetera = new Cafetera(10);
